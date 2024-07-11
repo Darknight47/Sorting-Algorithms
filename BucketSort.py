@@ -1,3 +1,7 @@
+# Initialize Buckets: Create n empty buckets.
+# Distribute Elements: Place each element into a bucket based on its value.
+# Sort Buckets: Sort each bucket individually.
+# Concatenate Buckets: Merge the sorted buckets to get the final sorted array.
 def bucket_sort(arr):
     arrayLength = len(arr)
     if(arrayLength <= 0):
