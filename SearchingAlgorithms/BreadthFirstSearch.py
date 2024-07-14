@@ -50,3 +50,11 @@ graph = {
 }
 start_node = 'A'
 print("BFS Order:", bfs(graph, start_node))
+"""
+The Order:
+    A
+   / \
+  B   C
+ /|   |\
+D E   F G
+"""
